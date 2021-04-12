@@ -100,12 +100,12 @@ namespace Calculator
                 Console.WriteLine("-------------------------\n");
 
                 // Ask the user if they want to keep using the app
-                Console.WriteLine("Would you like to continue using the app?\n");
-                Console.WriteLine("Type 'n' then Enter to close the app, or press any other button then Enter to continue\n");
+                Console.Write("Done using the calculator? Select 'n'. Otherwise, select any other key to keep going. ");
                 if (Console.ReadLine() == "n") endApp = true;
-                Console.WriteLine("\n");               
 
+                Console.WriteLine("\n"); 
             }
+            return;
         }
     }
 }
